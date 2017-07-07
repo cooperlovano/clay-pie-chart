@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>pie</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style> body {padding-left: 5%; margin-left: 5%; margin-top: 40px;} canvas {vertical-align: top;} h2 {font-family: sans-serif;}</style>
+  </head>
+  <body>
+    <h2>   press the L or R arrow to display 2 pie charts</h2>
+  </body>
+</html>
