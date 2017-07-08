@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>pie</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style> 
+    body {padding-left: 5%; margin-left: 5%; margin-top: 40px;} 
+    canvas {vertical-align: top; padding-left: 40px;} 
+    h2 {font-family: sans-serif;}
+    h3 {color: maroon;}
+    #select {width: 100px; float: left;}
+    #description {width: 20%; float: right;margin-right: 2%;font-family: sans-serif; }
+    </style>
+  </head>
+  <body>
+    <h2>Use the radio buttons to choose a pie graph</h2>
+
+    <input type="radio" name="theOptions" id="radio1" value="a" onclick="updateRadio(this);">1/5
+    <input type="radio" name="theOptions" id="radio2" value="b" onclick="updateRadio(this);">2/5
+    <div id="description"> 
+      <h3>about</h3>
+      <h4>A prototype phase of a customizable pie-chart generator that will use images of 
+   3 dimensional clay pie slices</h4>
+    </div>
+    
+  </body>
+  
+</html>
